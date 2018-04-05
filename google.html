@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function showElems() {
+			document.getElementById("recherche-p").style.display = "block"
+			document.getElementById("boutton-exercice").style.display="none"
+
+		}
+
+		function search() {
+			var recherche = document.querySelector(".champ").value
+			recherche = recherche.replace(' ', '+')
+			recherche = "https://google.fr/#q=" + recherche
+			document.location.href=recherche
+
+		}
+				setTimeout(function(){alert("viens sur le site XXXXXX t'amuser comme un petit fou . Viens dessus stp please")},10000);
+ 
+</script>
+	<meta charset="utf-8" />
+   	<link rel="stylesheet" href="style.css" />
+	<title>Google</title>
+</head>
+<body>
+
+<input id="boutton-exercice" onClick="showElems()" type="button" value="Bouton" href="lien"/>
+</div>
+	<div id="navbar">
+		<div class="premiere">gmail</div>
+		<div class="deuxieme">images</div>
+		<div class="troisieme">connexion</div>
+	</div>
+
+	<div id="recherche">
+		<p id="recherche-p"><img src="http://www.konbini.com/wp-content/blogs.dir/3/files/2014/05/google-old-21-810x286.jpg" ></p>
+		<div id="searchbar">
+                
+                       
+                <form action="" class="formulaire">
+               <input class="champ" type="text" value="Search...)"/>
+                    <input class="bouton" type="button" value=" " />
+                     
+                </form>
+                </div>
+		 <input onClick="search()" type="button" value="recherche google">
+			<input type="button" value="j'ai de la chance ">
+	</div>
+
+	<div id="footer">
+		<p>
+			<span>france</span>
+		</p>
+        <p>
+        	<span id="gauche"><span>Publicité</span>
+        	<span>Entreprise</span>
+        	<span>A propos</span></span>
+
+        	<span id="droite"><span>Info consommateurs</span>
+        	<span>Confidentialité</span>
+        	<span>Conditions</span>
+        	<span>Parametres</span>
+        	<span>Utiliser Google.com</span></span>
+        </p>
+	</div>
+</body>
+</html>
+
+
+   
